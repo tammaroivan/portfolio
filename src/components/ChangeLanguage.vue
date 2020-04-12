@@ -1,5 +1,9 @@
 <template>
-  <select class="change-language" v-model="$i18n.locale">
+  <select
+    class="change-language"
+    v-model="$i18n.locale"
+    v-on:change="changedLanguage"
+  >
     <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{
       $t(`languages.${lang}`)
     }}</option>
@@ -11,6 +15,11 @@ export default {
   name: "ChangeLanguage",
   data() {
     return { langs: ["en", "es"] };
+  },
+  methods: {
+    changedLanguage() {
+      this.$ga.event("language", "change", "lang", this.$i18n.locale);
+    }
   }
 };
 </script>
