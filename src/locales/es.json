@@ -1,0 +1,12 @@
+{
+  "works": "Trabajos",
+  "cv": "CV",
+  "summary": {
+    "currently": "Actualmente estoy trabajando como <u>Frontend Engineer</u>. Más de 4 años trabajando como Desarrollador Web para clientes chicos y grandes.",
+    "phrase": "Amo y disfruto darle vida a ideas y proyectos en la web."
+  },
+  "languages": {
+    "en": "Ingles",
+    "es": "Español"
+  }
+}
