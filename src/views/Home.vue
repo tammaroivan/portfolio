@@ -21,7 +21,6 @@ export default {};
 <style lang="scss" scoped>
 .main {
   display: flex;
-  height: calc(100vh - 90px);
   max-width: 1600px;
   position: relative;
   padding: 20px;

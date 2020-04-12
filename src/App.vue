@@ -2,20 +2,22 @@
   <div id="app">
     <Navbar />
     <div class="content">
-      <Main />
+      <transition name="slide" mode="out-in">
+        <router-view class="content-view" />
+      </transition>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
-import Navbar from "./components/Navbar.vue";
-import Main from "./components/Main.vue";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export default {
-  name: "App",
   components: {
     Navbar,
-    Main
+    Footer
   }
 };
 </script>
@@ -34,24 +36,29 @@ export default {
   text-align: center;
   color: #fff;
   background: #1d225f;
+  background-image: url("./assets/oval_header.svg");
+  background-position: right top;
+  background-repeat: no-repeat;
+}
 
-  .content:before {
-    content: "";
-    display: block;
-    background-image: url("./assets/oval_header.svg");
-    background-repeat: no-repeat;
-    background-position: top right;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+.content {
+  min-height: calc(100vh - 120px);
 }
 
 @media (max-width: 600px) {
-  #app .content:before {
+  #app {
     background-image: none;
   }
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.slide-enter,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(-30%);
 }
 </style>

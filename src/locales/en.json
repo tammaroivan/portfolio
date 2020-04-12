@@ -1,12 +1,28 @@
 {
-  "works": "Works",
   "cv": "CV",
   "summary": {
-    "currently": "Currently working as <u>Frontend Engineer</u>. More than 4 years of experience as a Web Developer for small and big clients.",
+    "currently": "Currently working as <u>Frontend Engineer</u>. More than 4 years of experience as a Web Developer for Startup, big companies and small clients.",
     "phrase": "I love and enjoy bringing ideas to life in the browser."
   },
   "languages": {
     "en": "English",
     "es": "Spanish"
+  },
+  "projects": {
+    "menu": "Projects",
+    "lastProjects": "Last Projects",
+    "warning": "Other projects may not be displaying due to privacy policies.",
+    "otero" : {
+      "title": "Otero Insurance",
+      "description": "Landing Page for insurance company. Fully responsive website built from scratch."
+    },
+    "weather" : {
+      "title": "Super Weather",
+      "description": "Weather app made with Flutter. Uses geolocation to get the current position, the app reports the weather in a simple and fast way."
+    },
+    "cshub" : {
+      "title": "CS Hub Manager",
+      "description": "Dashboard to manage fuel sales. Fully responsive website built from scratch."
+    }
   }
 }

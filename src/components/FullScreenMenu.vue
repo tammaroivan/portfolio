@@ -2,8 +2,9 @@
   <div class="full-screen-menu">
     <div class="options">
       <div class="links">
-        <a class="link-item" href="">{{ $t("works") }}</a>
-        <a class="link-item" href="">{{ $t("cv") }}</a>
+        <router-link class="link-item" to="/projects">
+          <span @click="closeFullScreenMenu">{{ $t("projects.menu") }}</span>
+        </router-link>
         <ChangeLanguage class="link-item" />
       </div>
       <SocialButtons />

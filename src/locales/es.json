@@ -1,12 +1,28 @@
 {
-  "works": "Trabajos",
   "cv": "CV",
   "summary": {
-    "currently": "Actualmente estoy trabajando como <u>Frontend Engineer</u>. Más de 4 años trabajando como Desarrollador Web para clientes chicos y grandes.",
+    "currently": "Actualmente estoy trabajando como <u>Frontend Engineer</u>. Más de 4 años trabajando como Desarrollador Web para Startups, grandes compañias y clientes pequeños.",
     "phrase": "Amo y disfruto darle vida a ideas y proyectos en la web."
   },
   "languages": {
     "en": "Ingles",
     "es": "Español"
+  },
+  "projects": {
+    "menu": "Trabajos",
+    "lastProjects": "Ultimos Trabajos",
+    "warning": "Otros proyectos pueden no estar mostrándose a causas de politicas de privacidad.",
+    "otero" : {
+      "title": "Otero Seguros",
+      "description": "Landing Page para compañia de seguros. Sitio totalmente responsive construido desde cero."
+    },
+    "weather" : {
+      "title": "Super Weather",
+      "description": "Aplicacion del clima hecha en Flutter. Utiliza la geolocalización para obtener la posición, la APP reporta el clima en una forma simple y rápida."
+    },
+    "cshub" : {
+      "title": "CS Hub Manager",
+      "description": "Dashboard para controlar la venta de combustibles. Sitio totalmente responsive construido desde cero."
+    }
   }
 }

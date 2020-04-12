@@ -1,10 +1,13 @@
 <template>
   <nav class="navbar">
     <div class="nav-container">
-      <img src="../assets/logo.png" class="logo" alt="Logo" />
+      <router-link to="/">
+        <img src="../assets/logo.png" class="logo" alt="Logo" />
+      </router-link>
       <div class="left-menu">
-        <!-- <a class="item-menu">{{ $t("works") }}</a> -->
-        <!-- <a class="item-menu">{{ $t("cv") }}</a> -->
+        <router-link class="item-menu" to="/projects">
+          {{ $t("projects.menu") }}
+        </router-link>
       </div>
       <div class="right-menu">
         <SocialButtons />
@@ -75,6 +78,8 @@ export default {
 
     .item-menu {
       font-weight: 600;
+      text-decoration: none;
+      color: #fff;
 
       &::after {
         display: block;
