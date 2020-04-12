@@ -3,8 +3,8 @@
     <div class="nav-container">
       <img src="../assets/logo.png" class="logo" alt="Logo" />
       <div class="left-menu">
-        <a class="item-menu">{{ $t("works") }}</a>
-        <a class="item-menu">{{ $t("cv") }}</a>
+        <!-- <a class="item-menu">{{ $t("works") }}</a> -->
+        <!-- <a class="item-menu">{{ $t("cv") }}</a> -->
       </div>
       <div class="right-menu">
         <SocialButtons />
