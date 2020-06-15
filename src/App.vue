@@ -42,7 +42,7 @@ export default {
 }
 
 .content {
-  min-height: calc(100vh - 120px);
+  min-height: calc(100vh - 122px);
 }
 
 @media (max-width: 600px) {
