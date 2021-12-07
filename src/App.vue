@@ -17,8 +17,8 @@ import Footer from "./components/Footer";
 export default {
   components: {
     Navbar,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
 
@@ -39,6 +39,7 @@ export default {
   background-image: url("./assets/oval_header.svg");
   background-position: right top;
   background-repeat: no-repeat;
+  overflow: auto;
 }
 
 .content {

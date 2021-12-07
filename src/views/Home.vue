@@ -4,8 +4,9 @@
       <h1 class="name">Ivan</h1>
       <h1 class="surname">Tammaro</h1>
       <div class="summary">
-        <p v-html="$t('summary.currently')" class="summary-currently"></p>
-        <p>
+        <p v-html="$t('summary.currently')" class="summary-currently" />
+        <p v-html="$t('summary.previous')" class="summary-currently" />
+        <p class="phrase">
           {{ $t("summary.phrase") }}
         </p>
       </div>
@@ -83,8 +84,27 @@ export default {};
 
       .summary-currently {
         margin-bottom: 30px;
+
+        &::v-deep .link {
+          color: white;
+        }
+      }
+
+      ::v-deep b {
+        font-weight: bold;
+      }
+
+      ::v-deep .previous-list {
+        list-style: inside;
       }
     }
+
+    .phrase {
+      font-style: italic;
+      font-size: 1.2rem;
+      margin-top: 10rem;
+    }
+
     @media (max-width: 860px) {
       .name,
       .surname {

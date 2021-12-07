@@ -1,11 +1,12 @@
 {
   "cv": "CV",
   "summary": {
-    "currently": "Actualmente estoy trabajando como <u>Frontend Engineer</u>. Más de 4 años trabajando como Desarrollador Web para Startups, grandes compañias y clientes pequeños.",
-    "phrase": "Amo y disfruto darle vida a ideas y proyectos en la web."
+    "currently": "<b>Actualmente:</b>  Software Engineer @ <a class='link' href='https://www.cascade.app'>Cascade</a>.",
+    "previous": "<b>Antes:</b> <ul class='previous-list'><li>Frontend Engineer & Team Lead @ <a class='link' href='https://www.kantox.com'>Kantox</a></li><li>Frontend Developer @ <a class='link' href='https://www.wolox.com'>Wolox</a></li><li>Web Developer @ <a class='link' href='https://www.c-team.com.ar'>C-Team</a></li></ul>",
+    "phrase": "Amo y disfruto darle vida a ideas y proyectos en el navegador."
   },
   "languages": {
-    "en": "Ingles",
+    "en": "English",
     "es": "Español"
   },
   "projects": {
