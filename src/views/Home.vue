@@ -6,9 +6,6 @@
       <div class="summary">
         <p v-html="$t('summary.currently')" class="summary-currently" />
         <p v-html="$t('summary.previous')" class="summary-currently" />
-        <p class="phrase">
-          {{ $t("summary.phrase") }}
-        </p>
       </div>
     </div>
     <!-- <img src="../assets/main_image.svg" alt="" /> -->
@@ -134,7 +131,7 @@ import Parallax from "parallax-js";
 export default {
   mounted() {
     new Parallax(this.$refs.scene);
-  },
+  }
 };
 </script>
 
@@ -150,8 +147,8 @@ export default {
   .main-image {
     position: absolute;
     right: 0;
-    top: 40vh;
-    right: 40px;
+    top: 100px;
+    right: 30px;
 
     @media (max-width: 1340px) {
       width: 500px;
@@ -166,12 +163,16 @@ export default {
     }
 
     @media (max-height: 880px) {
-      display: none;
+      top: 10vh;
+
+      svg {
+        width: 500px;
+      }
     }
   }
 
   .main-description {
-    font-size: 10rem;
+    font-size: 7rem;
     font-weight: 900;
     text-align: left;
     position: absolute;

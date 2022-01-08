@@ -1,7 +1,7 @@
 {
   "cv": "CV",
   "summary": {
-    "currently": "<b>Currently:</b> Software Engineer @ <a class='link' href='https://www.cascade.app'>Cascade</a>.",
+    "currently": "<b>Current:</b> Software Engineer @ <a class='link' href='https://www.cascade.app'>Cascade</a>.",
     "previous": "<b>Previous:</b> <ul class='previous-list'><li>Frontend Engineer & Team Lead @ <a class='link' href='https://www.kantox.com'>Kantox</a></li><li>Frontend Developer @ <a class='link' href='https://www.wolox.com.ar'>Wolox</a></li><li>Web Developer @ <a class='link' href='https://www.c-team.com.ar'>C-Team</a></li></ul>",
     "phrase": "I love and enjoy bringing ideas to life in the browser."
   },
@@ -13,15 +13,15 @@
     "menu": "Projects",
     "lastProjects": "Last Projects",
     "warning": "Other projects may not be displaying due to privacy policies.",
-    "otero" : {
+    "otero": {
       "title": "Otero Insurance",
       "description": "Landing Page for insurance company. Fully responsive website built from scratch."
     },
-    "weather" : {
+    "weather": {
       "title": "Super Weather",
       "description": "Weather app made with Flutter. Uses geolocation to get the current position, the app reports the weather in a simple and fast way."
     },
-    "cshub" : {
+    "cshub": {
       "title": "CS Hub Manager",
       "description": "Dashboard to manage fuel sales. Fully responsive website built from scratch."
     }
